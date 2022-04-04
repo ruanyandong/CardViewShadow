@@ -2,3 +2,4 @@ include ':ReflectUpdateCardViewShadow'
 include ':CardViewLib'
 include ':app'
 rootProject.name = "CardView"
+include ':ShadowDrawable'

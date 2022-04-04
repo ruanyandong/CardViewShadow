@@ -32,4 +32,27 @@
         app:cardCornerRadius="20dp"
         app:cardPreventCornerOverlap="true" />
 
+    <View
+        android:id="@+id/shadow_drawable"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"/>
+
+    <com.ryd.cardview.ShadowContainer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:containerDeltaLength="10dp"
+        app:containerShadowRadius="10dp"
+        app:containerShadowColor="#f00"
+        app:enable="true"
+        >
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="#fff"
+            />
+    </com.ryd.cardview.ShadowContainer>
+
 </LinearLayout>
